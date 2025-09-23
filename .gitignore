@@ -1,14 +1,52 @@
 # Editor droppings
 *~
 *.sw?
+*.swp
+*.swo
 
 # MacOS droppings
 .DS_Store
 
+# Qt project files
 *.pro.user.*
 *.pro.user
 
 # Build products
 build*/
+cmake-build-*/
 *.app
 *.exe
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Qt build artifacts
+qt-downloads/
+qt-install/
+qt/
+
+# Qt MOC/UIC/RCC generated files
+*_autogen/
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# IDE files
+.idea/
+.vscode/
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Log files
+*.log
